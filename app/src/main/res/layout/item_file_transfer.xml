@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dist_10">
+
+    <TextView
+        android:id="@+id/tv_item_file_transfer_file_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tv_item_file_transfer_size"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textSize="@dimen/textSize_content"/>
+
+    <TextView
+        android:id="@+id/tv_item_file_transfer_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/dist_10"
+        android:textSize="@dimen/textSize_caption"/>
+
+    <TextView
+        android:id="@+id/tv_item_file_transfer_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_file_transfer_size"
+        android:layout_marginTop="@dimen/dist_5"
+        android:textSize="@dimen/textSize_caption"/>
+
+    <ProgressBar
+        android:id="@+id/pb_item_file_transfer"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_file_transfer_size"
+        android:layout_marginLeft="@dimen/dist_10"
+        android:layout_marginTop="@dimen/dist_5"
+        android:layout_toRightOf="@+id/tv_item_file_transfer_status"
+        android:max="100"/>
+
+</RelativeLayout>

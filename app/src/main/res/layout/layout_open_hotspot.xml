@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_open_hotspot_ssid"
+        android:layout_width="@dimen/dist_150"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColorHint="@color/textColor_caption"
+        android:hint="输入热点名称"
+        android:gravity="center"
+        android:text="aa"
+        android:padding="@dimen/dist_10"
+        android:textColor="@color/textColor_content"
+        android:textSize="@dimen/textSize_content"/>
+
+    <EditText
+        android:id="@+id/et_open_hotspot_password"
+        android:layout_width="@dimen/dist_150"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColorHint="@color/textColor_caption"
+        android:hint="输入热点密码"
+        android:text="88888888"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dist_10"
+        android:padding="@dimen/dist_10"
+        android:textColor="@color/textColor_content"
+        android:textSize="@dimen/textSize_content"/>
+
+    <Button
+        android:id="@+id/btn_open_hotspot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openHotspot"
+        android:text="开启热点"/>
+
+</LinearLayout>

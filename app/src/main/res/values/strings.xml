@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SocketDemo</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="item_ssid">SSID：%1$s</string>
+    <string name="item_mac">MAC地址：%1$s</string>
+    <string name="item_level">Level:%1$d</string>
+</resources>

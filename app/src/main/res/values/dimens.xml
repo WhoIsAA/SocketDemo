@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- BEGIN * 常用距离值 -->
+    <dimen name="dist_0">0dp</dimen>
+    <dimen name="dist_1">1dp</dimen>
+    <dimen name="dist_2">2dp</dimen>
+    <dimen name="dist_3">3dp</dimen>
+    <dimen name="dist_5">5dp</dimen>
+    <dimen name="dist_8">8dp</dimen>
+    <dimen name="dist_10">10dp</dimen>
+    <dimen name="dist_15">15dp</dimen>
+    <dimen name="dist_20">20dp</dimen>
+    <dimen name="dist_25">25dp</dimen>
+    <dimen name="dist_30">30dp</dimen>
+    <dimen name="dist_35">35dp</dimen>
+    <dimen name="dist_40">40dp</dimen>
+    <dimen name="dist_45">45dp</dimen>
+    <dimen name="dist_50">50dp</dimen>
+    <dimen name="dist_55">55dp</dimen>
+    <dimen name="dist_60">60dp</dimen>
+    <dimen name="dist_70">70dp</dimen>
+    <dimen name="dist_80">80dp</dimen>
+    <dimen name="dist_90">90dp</dimen>
+    <dimen name="dist_100">100dp</dimen>
+    <dimen name="dist_110">110dp</dimen>
+    <dimen name="dist_120">120dp</dimen>
+    <dimen name="dist_130">130dp</dimen>
+    <dimen name="dist_150">150dp</dimen>
+    <dimen name="dist_180">180dp</dimen>
+    <dimen name="dist_200">200dp</dimen>
+    <!-- END * 常用距离值 -->
+
+
+    <!-- BEGIN * 常用字体大小 -->
+    <dimen name="textSize_big_btn">20sp</dimen>
+    <dimen name="textSize_title">18sp</dimen>
+    <dimen name="textSize_content">16sp</dimen>
+    <dimen name="textSize_caption">14sp</dimen>
+    <dimen name="textSize_small">12sp</dimen>
+
+    <!-- END * 常用字体大小 -->
+
+
+    <!-- BEGIN * 常用高度值 -->
+    <dimen name="height_toolbar">48dp</dimen>
+    <dimen name="height_big_head">90dp</dimen>
+    <dimen name="height_middle_head">60dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- END * 常用高度值 -->
+
+
+</resources>

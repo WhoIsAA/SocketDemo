@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/dist_10">
+
+    <TextView
+        android:id="@+id/tv_receive_files_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/textColor_content"
+        android:textSize="@dimen/textSize_content"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_receive_files_choose_hotspot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_receive_files"
+        android:layout_below="@+id/tv_receive_files_status"
+        android:layout_marginTop="@dimen/dist_10"
+        android:overScrollMode="never"
+        android:visibility="gone"
+        app:layoutManager="GridLayoutManager"
+        app:spanCount="3"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_receive_files"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_receive_files"
+        android:layout_below="@+id/tv_receive_files_status"
+        android:layout_marginTop="@dimen/dist_10"
+        android:overScrollMode="never"
+        android:visibility="gone"
+        app:layoutManager="LinearLayoutManager"/>
+
+    <Button
+        android:id="@+id/btn_receive_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="false"
+        android:text="开始发送"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/et_dialog_with_edittext"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/dist_0"
+          android:layout_marginLeft="@dimen/dist_10"
+          android:layout_marginRight="@dimen/dist_10"
+          android:layout_marginTop="@dimen/dist_10"
+          android:hint="密码"
+          android:inputType="textVisiblePassword"
+          android:padding="@dimen/dist_10"/>
